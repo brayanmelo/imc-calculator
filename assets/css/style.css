@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+:root {
+  --bg-color: #4801b9;
+  --container-color: rgba(52, 13, 160, 0);
+  --font-color: rgb(247, 247, 247);
+  --other-color:rgb(123, 185, 22);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  background-color: var(--container-color);
+  color: var(--font-color);
+  border-radius: 10px;
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container h1 {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+/*---------------- CALCULE IMC ----------------*/
+
+.calcularIMC {
+  padding-top: 20px;
+  width: 80%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+form input {
+  margin-bottom: 30px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+form label {
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1.1rem;
+  width: 100%;
+}
+form input:focus {
+  outline: 2px solid var(--other-color);
+}
+form button {
+  color: var(--color-font);
+  background-color: var(--other-color);
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.200);
+}
+form button:hover {
+  background-color: rgb(128, 202, 9);
+  transition: 0.3s;
+}
+
+/*---------------- RESULTADO IMC ----------------*/
+
+.resultado {
+  width: 80%;
+  margin: 20px 0 20px 0; 
+}
+.p-resultado {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background-color: var(--bg-color);
+  box-shadow: 1px 1px 35px rgba(0, 0, 0, 0.250);
+  padding: 30px;
+  border-radius: 10px;
+}
+.error {
+  background-color: rgb(211, 41, 55);
+  padding: 30px;
+  font-size: 1rem;
+}
+
+footer {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  color: var(--font-color);
+  margin-top: 20px;
+}
+
+/*---------------- RESPOSIVO MOBILE ----------------*/
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+  .container h1 {
+    font-size: 1.8rem;
+  }
+  form { 
+    width: 95%;
+    margin: 0 auto;
+  }
+  .resultado {
+    margin: 20px auto; 
+  }
+  .p-resultado {
+    width: 95%;
+  }
+  .error {
+    margin: 20px auto;
+  }
+}
