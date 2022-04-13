@@ -22,21 +22,19 @@ body {
   width: 100vw;
 }
 .container {
-  background-color: var(--container-color);
   color: var(--font-color);
   border-radius: 10px;
   width: 45%;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .container h1 {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 /*---------------- CALCULE IMC ----------------*/
@@ -55,7 +53,7 @@ form {
 }
 form input {
   margin-bottom: 30px;
-  height: 40px;
+  height: 45px;
   width: 100%;
   border: none;
   border-radius: 8px;
@@ -65,7 +63,7 @@ form label {
   margin-bottom: 12px;
   font-weight: 600;
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 form input:focus {
@@ -96,7 +94,7 @@ form button:hover {
   margin: 20px 0 20px 0; 
 }
 .p-resultado {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
   margin: 0 auto;
@@ -127,17 +125,13 @@ footer {
     padding: 20px;
   }
   .container h1 {
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
   form { 
-    width: 95%;
     margin: 0 auto;
   }
   .resultado {
     margin: 20px auto; 
-  }
-  .p-resultado {
-    width: 95%;
   }
   .error {
     margin: 20px auto;
