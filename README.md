@@ -3,6 +3,9 @@
 
 Projeto web para fazer o calculo do IMC de uma pessoa pegando como dados sua altura e peso.
 
+## Demonstração
+
+https://brayanmelo.github.io/imc-calculator/
 
 ## Stack utilizada
 
