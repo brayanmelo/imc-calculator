@@ -24,7 +24,7 @@ body {
 .container {
   color: var(--font-color);
   border-radius: 10px;
-  width: 45%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ body {
 
 .calcularIMC {
   padding-top: 20px;
-  width: 80%;
+  width: 85%;
 }
 form {
   display: flex;
@@ -90,7 +90,7 @@ form button:hover {
 /*---------------- RESULTADO IMC ----------------*/
 
 .resultado {
-  width: 80%;
+  width: 85%;
   margin: 20px 0 20px 0; 
 }
 .p-resultado {
@@ -120,12 +120,14 @@ footer {
 /*---------------- RESPOSIVO MOBILE ----------------*/
 
 @media screen and (max-width: 1280px) {
+
   .container {
-    width: 90%;
-    padding: 20px;
+    width: 100%;
+    padding: 10px;
   }
   .container h1 {
     font-size: 3rem;
+    margin-bottom: 30px;
   }
   form { 
     margin: 0 auto;
