@@ -1,7 +1,7 @@
 
 # IMC Calculator
 
-Projeto web para fazer o calculo do IMC de uma pessoa pegando como dados sua altura e peso.
+Projeto web para fazer o cálculo do IMC (Índice de massa corporal) de uma pessoa usando como dados seu peso e altura.
 
 ## Demonstração
 
